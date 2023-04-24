@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:gravity="center_horizontal|top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-25dp"
+            android:background="#FF0"
+            android:padding="3dp"
+            android:rotation="-3"
+            android:text="PLASTIC IS NOT WASTE"
+            android:textColor="#3d3d3d"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_view123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#FF0"
+            android:padding="3dp"
+            android:rotation="-3"
+            android:text="ITS RECYCLABLE RESOURCE"
+            android:textColor="#3d3d3d"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp"
+            android:background="@color/greenAggregator"
+            android:text="Collect Plastic"
+            android:textColor="@color/textcolor" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/transparent"
+            android:textColor="@color/fadedGreen"
+            android:text="View Plastic Collected" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/transparent"
+            android:textColor="@color/fadedGreen"
+            android:text="View Plastic Submitted" />
+
+        <Button
+            android:id="@+id/button45"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/transparent"
+            android:text="Logout"
+            android:textColor="@color/fadedGreen" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_y="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Register as :"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="322dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="@color/orange"
+            android:text="Housing Societies"
+            android:textColor="@color/textcolor" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="322dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="25dp"
+            android:background="@color/yellowRecycler"
+            android:text="Corporates" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="322dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="25dp"
+            android:background="@color/purple"
+            android:textColor="@color/textcolor"
+            android:text="Hotels and Restaurants" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="322dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="25dp"
+            android:background="@color/blueDroppin"
+            android:textColor="@color/textcolor"
+            android:text="Educational Institution" />
+        <!--android:drawableLeft="@mipmap/school_icon_foreground"/-->
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="322dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="25dp"
+            android:background="@color/redPincode"
+            android:text="Social Institution (NGO/Religious Places)"
+            android:textColor="@color/textcolor" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="322dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="25dp"
+            android:background="@color/darkGreen"
+            android:padding="5dp"
+            android:textColor="@color/textcolor"
+            android:text="Plastic Agent/Aggregator/Recycler "/>
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center|top"
+            android:text="@string/toll_free_no" />
+
+
+    </LinearLayout>
+
+</ScrollView>

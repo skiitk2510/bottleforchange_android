@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Bottles For Change</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_reg">RegActivity</string>
+    <string name="title_activity_individual_reg">IndividualRegActivity</string>
+    <string name="title_activity_housing_society">HousingSocietyActivity</string>
+    <string name="title_activity_otp">OtpActivity</string>
+    <string name="resend_otp"><a href="#">Resend OTP</a></string>
+    <string name="title_activity_creds">CredsActivity</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <string name="title_activity_submitted_plastic">SubmittedPlasticActivity</string>
+    <string name="title_activity_ticket">TicketActivity</string>
+    <string name="title_activity_scorecard">ScorecardActivity</string>
+    <string name="title_activity_dashboard_platic_agent">DashboardPlaticAgentActivity</string>
+    <string name="title_activity_dashboard_aggregator">DashboardAggregatorActivity</string>
+    <string name="title_activity_plastic_agent_submit">PlasticAgentSubmitActivity</string>
+    <string name="title_activity_patickets">PATicketsActivity</string>
+    <string name="title_activity_aggregator">AggregatorActivity</string>
+    <string name="title_activity_plastic_collected">PlasticCollectedActivity</string>
+    <string name="title_activity_submit_plastic">SubmitPlasticActivity</string>
+    <string name="title_activity_pincode_search">PincodeSearchActivity</string>
+    <string name="title_activity_call_agent">CallAgentActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_hotel_resturant_reg">HotelResturantReg</string>
+    <string name="title_activity_school_college_reg">SchoolCollegeReg</string>
+    <string name="title_activity_plastic_agent_aggregator_reg">PlasticAgentAggregatorReg</string>
+    <string name="title_activity_drop_apin">Map</string>
+    <!--<string name="server_path">http://192.168.0.124:86/</string>-->
+    <string name="server_path">https://www.bottlesforchange.in/</string>
+    <string name="toll_free_no">Contact us: 18001211007\nEmail: wecare@bisleri.co.in</string>
+    <string name="terms_conditions"><![CDATA[<div class="innercontentwrap">
+        <div class="inner_wrapper">
+            <h1 class="ictitle">Terms of Service</h1>
+            <p class="ictxt">The following terms and conditions constitute an agreement between you and Bisleri International Pvt Ltd. (“BIPL”, “we” or “us”) and the END USER (“You” or “User”), by using the site and registering with us you signify that you accept (unconditionally and irrevocably) these terms and conditions, including that you consent to the information practices disclosed in our Privacy Policy, which is incorporated herein by reference, and that you agree to comply with applicable laws, governed and interpreted by the country (hereinafter referred to as India). Please note that the website and Application are provided on As Is basis without any warranties. If you are registering an account or using the Site on behalf of an individual or entity other than yourself, you represent that you are authorized by such individual or entity to accept these Terms of Service on such individual or entity’s behalf.<br><br>
+
+            In addition, you understand that the features and services offered on the App may be altered, improved, removed or adapted at any time by BIPL in its sole discretion and without any notice. If you do not agree to these terms and conditions, please refrain from using our App and exit immediately.</p>
+
+            <h3 class="icsubtitle">1. GENERAL</h3>
+             <!-- <ul class="iclisting"> -->
+                <p  class="ictxt">The following Terms of usage governs the use of the App and its services provided by BIPL. These terms apply to the services generally and the additional terms of services applicable to each service offering are set forth below</p>
+                <p  class="ictxt">In terms of information Technology statutes, this documents is an electronic record, under the laws of India. This document is published in accordance with the provisions of Rule 3(1) of the Intermediary Guidelines Rules, 2011 that require publishing the rules and regulations, privacy policy and Terms of usage for access or usage of the App. The headline of each section in this Agreement are only for the purpose of organizing the various provisions of this Agreement in orderly manner. These headings shall not be used by either party to interpret the provisions contained under them in any manner. Further the headings have no legal or contractual value.</p>
+                <p  class="ictxt">By using this App, You accept and agree to be bound by this Agreement, the Privacy Policy, as well as rules, guidelines, policies terms and conditions applicable to any service that is provided by the App, which shall be deemed to be incorporated into this Terms of Service and shall be considered as a part of this Terms of Service. Your use of this App is evidence that you have read and agreed to be contractually bound by these Terms of Service and our Privacy Policy. The use of this App is governed by this policy as well as any policy so mentioned in terms of reference. If you do not agree with any of these terms please discontinue using the App.</p>
+            <!-- </ul> -->
+
+            <h3 class="icsubtitle">2. DEFINITIONS</h3>
+            <p class="ictxt">For the purpose of Terms of Service, along with any amendments to the same, and wherever the context so requires.</p>
+             <!-- <ul class="iclisting"> -->
+                <p class="ictxt">i. Agreement: This terms shall mean and refer to this Terms of Service including any amendments that may be incorporated into it.</p>
+                <p class="ictxt">ii. Authorized user:  This terms shall mean an individual subscriber or the partners, members, employees, temporary employees and independent contractors of an organization with an access to the Service who has been added to the account as users.</p>
+                <p class="ictxt">iii. Content: This terms shall mean any information on the App or any information posted by you in connection with the Service.</p>
+                <p class="ictxt">iv. Services : This terms shall mean and refer to the services provided under the App</p>
+                <p class="ictxt">v. Party &amp; Parties: This terms shall respectively be used to refer to the User and BIPL individually and collectively, as the context so requires.</p>
+                <p class="ictxt">vi. You and User: This terms shall mean any legal person or entity accessing or using the services provided on the App who is competent to enter into binding contracts as per the provisions of the Indian Contract Act, 1872.</p>
+            <!-- </ul> -->
+
+            <h3 class="icsubtitle">3. SERVICES</h3>
+            <p class="ictxt">You must follow these terms in order to use our services listed below:</p>
+             <ul class="iclisting pad-l-19">
+               <li>The App shall contain details like contact no., location etc., of the nearest Plastic agent/kabadiwalas.</li>
+               <li>This App will be used by you and your Authorized users and Plastic agent/ kabadiwalas to communicate about the pickup details and other necessary changes</li>
+               <li>The stakeholders as well as the plastic agent/ kabadiwalas will be able to input the quantities of plastic collected in the app under their Login after every pick up. </li>
+               <li>The waste plastic must be cleaned of any residue while returning it to the Plastic agent/ kabadiwalas.</li>
+            </ul>
+
+            <h3 class="icsubtitle">4. RIGHTS AND OBLIGATIONS</h3>
+            <p class="ictxt">
+                Your responsibilities and restrictions:
+                <br>You are responsible for all activities that occur under your user account or by your authorized users.
+                <br>You shall:
+            </p>
+             <!-- <ul class="iclisting"> -->
+               <p class="ictxt">(i) have a sole responsibility for accuracy, quality, integrity, legality, reliability and appropriateness of all data that you submit to the services;</p>
+               <p class="ictxt">(ii) Use commercially reasonable efforts to prevent unauthorized control or tampering or any other unauthorized access to or use of, the services and notify us promptly of any unauthorized use or security breach;</p>
+               <p class="ictxt">(iii) Comply with all applicable local, state, federal and foreign laws (including laws regarding privacy and protection of personal or consumer information) in using the Services;</p>
+               <p class="ictxt">(iv) Obtain and maintain all computer hardware, software and communications equipment needed to access the Services.</p>
+            <!-- </ul> -->
+
+
+            <h3 class="icsubtitle">5. TERMS AND TERMINATION</h3>
+            <p class="ictxt">The term of the Agreement shall be in force for as long as you continue to access and this App.</p>
+
+
+            <h3 class="icsubtitle">6. CONFIDENTIAL INFORMATION</h3>
+            <p class="ictxt">Unless expressly authorized by other party, neither party shall disclose to any Third party any information or materials provided by the other party under the Agreement and reasonably understood to be confidential “(Confidential Information”), or use such Confidential Information in any manner other than to perform its obligations under the Agreement. Furthermore, you will and will ensure your authorized users will keep in strict confidence all passwords and other access information to Services. This section shall survive termination or expiration of this Agreement</p>
+
+
+            <h3 class="icsubtitle">7. COPYRIGHT AND TRADEMARK NOTICES ALL RIGHTS RESERVED</h3>
+            <p class="ictxt">This Site is for your personal, non-commercial use. You shall not modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell any information, software, products or services obtained from this App. All product or trade names of BIPL referenced herein are our registered Trademarks or registered copyright marks.</p>
+
+            <h3 class="icsubtitle">8. DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY</h3>
+            <p class="ictxt"><u>General</u></p>
+            <!-- <ul class="iclisting"> -->
+               <p class="ictxt">Your access to and use of App and other materials on, or through, this App is solely at your own risk. We make no warranty whatsoever about the reliability, stability or virus free nature of such App. We have taken reasonable steps to ensure the information provided by us on this App is accurate at the time you view it. However, we cannot and have not checked the accuracy of all information provided by outside sources for example by the providers of other information, or of other parties.</p>
+               <p class="ictxt">We aim to ensure that availability of the App will be uninterrupted and that transmissions will be error-free. However, due to the nature of the Internet, this cannot be guaranteed and we reserve the right to withdraw or amend the service we provide on the App without notice. Also, your access to the App may occasionally be suspended or restricted to allow for repairs, maintenance, or the introduction of new facilities or services. We will attempt to limit the frequency and duration of any such suspension or restriction. We will not be liable if for any reason our App is unavailable at any time or period.</p>
+            <!-- </ul> -->
+
+            <h3 class="icsubtitle">9. DISCLAIMER OF WARRANTY</h3>
+            <!-- <ul class="iclisting"> -->
+               <p class="ictxt">i. This app is for integration of plastic agent/kabadiwalas, House Keeping staff, Recycling Partner, stakeholders for proper disposal of clean post- consumer plastic waste of all kind and spreading awareness on the same with information &amp; analysis and in no way intends to perform any price discovery or collect any price for the same.</p>
+               <p class="ictxt">ii. BIPL takes no responsibility of action taken by anyone based on content displayed on its application.</p>
+               <p class="ictxt">iii. Users may use information provided on this portal at their own discretion without any reference to BIPL</p>
+            <!-- </ul> -->
+
+            <h3 class="icsubtitle">10. LIMITATION OF LIABILITY</h3>
+            <p class="ictxt">In no event will we be liable for any direct, special, indirect, incidental, consequential (including among other things loss of revenue or profits), punitive, or exemplary damages of any kind or subject to equitable or injunctive remedies (whether based on breach of contract, tort, negligence, strict liability or otherwise) arising out of:</p>
+            <!-- <ul class="iclisting"> -->
+               <p class="ictxt">i. Access to, or use of this App, or delay or inability to use this App, or any information contained in this App; or,</p>
+               <p class="ictxt">ii. The availability and utility of services</p>
+               <p class="ictxt">iii. Nothing in this limitation of liability shall exclude liabilities not permitted to be excluded by applicable law. Any rights not expressly granted herein are reserved by us.</p>
+            <!-- </ul> -->
+
+            <h3 class="icsubtitle">11. INDEMNITY</h3>
+            <p class="ictxt">As a condition of use of this App, you agree to indemnify us from and against any and all liabilities, expenses (including attorney\'s fees) and damages arising out of claims resulting from your use of this App, including without limitation any claims alleging facts that if true would constitute a breach by you of these term.</p>
+
+            <h3 class="icsubtitle">12. APPLICABLE LAWS AND JURISDICTION</h3>
+            <p class="ictxt">This Agreement shall be governed by and construed in accordance with Indian Law subject to jurisdiction of the courts of Mumbai, India. Any/ all dispute, claims arising out of or relating to this agreement, the parties shall endeavor to settle such disputes amicably by mutual consultation and discussion. If parties do not come to any settlement within 30 days of raising such dispute, then the said dispute shall be referred to the court of appropriate jurisdiction in Mumbai and under applicable laws.</p>
+
+            <h3 class="icsubtitle">13. PRIVACY POLICY</h3>
+            <!-- <ul class="iclisting"> -->
+               <p class="ictxt">The privacy policies described below are part of our Terms of Service. We respect the privacy of our online visitors. By visiting this App you agree to be bound by the terms and conditions of this Privacy Policy. If you do not agree please do not use or access this App.
+                By mere use of the App, you expressly consent to our use and disclosure of your personal information in accordance with this Privacy Policy. This Privacy Policy is incorporated into and subject to the Terms of Service.</p>
+               <p class="ictxt">Bisleri International Pvt. Ltd is committed to protecting any personal information that you may provide to us. In particular, we believe it is important for you to know how we treat information about you that we may receive from your use of this App. In general, you can visit this site without telling us who you are or revealing any information about yourself. We may need to collect personal information from you for the purpose of providing service under this App.</p>
+               <p class="ictxt">The information collected from you may include your name, address, telephone, or e-mail address etc. This Privacy Policy is applicable to any personal information, which is given by you to us (“User Information”) via this App and is devised to help you feel more confident about the privacy and security of your personal details. This site is not intended for persons under 18 years of age. We do not knowingly solicit or collect personal information from or about children, and we do not knowingly market our products or services to children.</p>
+               <p class="ictxt">“You” shall mean you, the user of the site and “Yourself” interpreted accordingly. “We” / “Us” means Bisleri International Pvt. Ltd and “Our” interpreted accordingly. “Users” means the users of the site collectively and/or individually as the context allows.</p>
+            <!-- </ul> -->
+
+
+            <h3 class="icsubtitle">DATA COLLECTION</h3>
+            <p class="ictxt">When using the site you may be asked to enter User Information. Such User Information will only be used for the purposes for which it was collected, for any other purposes specified at the collection point and in accordance with this Privacy Policy.</p>
+
+            <h3 class="icsubtitle">HOW WE MAY USE YOUR DATA</h3>
+            <p class="ictxt">By entering Your User Information, You accept that we may retain Your User Information and that it may be held by us or any third party company which processes it on our behalf. We shall be entitled to Use your User Information for the following purposes:</p>
+            <ul class="iclisting pad-l-19">
+               <li>Market research, including statistical analysis of User behavior which we may disclose to third parties in depersonalized, aggregated form.</li>
+               <li>In order to enable us to comply with any requirements imposed on us by law.</li>
+               <li>In order to send you periodic communications (this may include e-mail, SMS etc.), about features, products and services, events and special offers.</li>
+            </ul>
+            <p class="ictxt">Such communications from us may include advertising for organizations. For your convenience you can withdraw consent by replying to the "unsubscribe" link in e-mails from us. Please also note that we do not disclose your personal information to third parties to enable them to send you direct marketing without your permission to do so.</p>
+
+
+            <h3 class="icsubtitle">COOKIES</h3>
+            <p class="ictxt">You should be aware that information and data may be automatically collected through the use of cookies. "Cookies" are small text files that store basic information that a Web site can use to recognize repeat site visits and as an example, recall Your name if this has been previously supplied. We may use this to observe behavior and compile aggregate data in order to improve the Site, target the advertising and assess general effectiveness of such advertising. Cookies do not attach to your system and damage your files. If you do not want information collected through the Use of Cookies, there is a simple procedure in most browsers that allows you to deny or accept the Cookie feature. Note, however, that “personalized” services may be affected if the cookie option is disabled.</p>
+
+
+            <h3 class="icsubtitle">SECURITY AND DATA RETENTION</h3>
+            <p class="ictxt">Security is very important to us. All security procedures are in place to protect the confidentiality, integrity and availability of your User information. We maintain strict physical, electronic, and administrative safeguards to protect your personal information from unauthorized or inappropriate access or disclosure or unauthorized modification. To prevent unauthorized access, we have put in place the latest industry-standard security technology and procedures to safeguard the information we collect online. We restrict access to information about you to those of our employees who need to know the information to respond to your inquiry or request. Employees who misuse personal information are subject to disciplinary action. We will comply with all relevant Data Protection legislation in relation to the period for which we retain any information you disclose to us. Even though we have taken significant steps to protect your personally identifiable information, no company, including our Website, can fully eliminate security risks associated with Personal Information.</p>
+
+
+            <h3 class="icsubtitle">GRIEVANCE</h3>
+            <p class="ictxt">
+                If any Grievance, address details is mentioned below: <br>
+                <i>Bisleri International Pvt. Ltd., </i> <br>
+                <i>Western Express Highway, </i> <br>
+                <i>Andheri (East), </i> <br>
+                <i>Mumbai - 400 099.</i> <br>
+            </p>
+
+            <h3 class="icsubtitle">UPDATES</h3>
+            <p class="ictxt">We may change and/or make updates to this privacy policy from time to time and you should check these regularly. Your use of this App and site will be deemed as an acceptance of the privacy policy existing at that time. Any site that you may connect to from here is not covered by this Privacy Policy.</p>
+
+        </div>
+    </div>]]></string>
+
+    <string name="not_present_in_pin">Sorry, currently we do not serve at your pincode location.</string>
+</resources>

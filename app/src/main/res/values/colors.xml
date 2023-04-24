@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#B65902</color>
+    <color name="background">#00a892 </color>
+    <color name="white">#FFFFFF </color>
+    <color name="textcolor">@color/white </color>
+    <color name="transparent">#00ffffff </color>
+    <color name="redPincode">#F04410 </color>
+    <color name="blueDroppin">#3F51B5 </color>
+    <color name="orange">#FF9800 </color>
+    <color name="greenAggregator">#019B00 </color>
+    <color name="yellowRecycler">#FFD500 </color>
+    <color name="purple">#972FDD </color>
+    <color name="darkGreen">#017D00 </color>
+    <color name="redIndividual">#F04410 </color>
+    <color name="orangeregister">#FDB30C </color>
+    <color name="blueLogin">#3142C8 </color>
+    <color name="fadedGreen">#49FFD8 </color><color name="grey">#C0C0C0 </color>
+    <color name="clr_offwhite">#faf9f6</color>
+    <color name="black">#000000</color>
+</resources>

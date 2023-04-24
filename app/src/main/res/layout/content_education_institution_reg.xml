@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_y="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:text="Name of School / College*"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="179dp" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '"
+            android:ems="10"
+            android:inputType="textCapWords"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:background="@drawable/edit_text_rounded"/>
+
+
+        <TextView
+
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Name of Key Contact Person*"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="179dp" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '"
+            android:ems="10"
+            android:inputType="textCapWords"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="145dp" />
+
+        <TextView
+
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="How are you Related*"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="179dp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="225dp"
+            android:background="#3D3D3D"
+            android:popupBackground="#3D3D3D"
+            />
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Mobile Number*"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="179dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:digits="0123456789"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="10"
+            tools:layout_editor_absoluteX="97dp"
+            tools:layout_editor_absoluteY="105dp" />
+
+        <TextView
+
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Alternate Number"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="179dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:digits="0123456789"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="10"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="184dp" />
+
+        <TextView
+
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Address*"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="179dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textCapSentences"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="261dp" />
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="State*" />
+
+        <Spinner
+            android:id="@+id/spinner_state"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="#3D3D3D"
+            android:popupBackground="#3D3D3D"
+            />
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="City*" />
+
+        <EditText
+            android:id="@+id/et_city"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textCapSentences" />
+
+        <TextView
+
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Pincode*"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="179dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:digits="0123456789"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="6"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Email Id*"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="179dp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="437dp" />
+
+        <LinearLayout
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="I agree to " />
+
+            <Button
+                android:id="@+id/tncButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/transparent"
+                android:textColor="#003EFF"
+
+                android:padding="0dp"
+                android:text=" terms &amp; conditions*"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Submit"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="530dp" />
+
+        <TextView
+            android:id="@+id/errorTextView"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/toll_free_no"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="468dp" />
+
+    </LinearLayout>
+
+</ScrollView>

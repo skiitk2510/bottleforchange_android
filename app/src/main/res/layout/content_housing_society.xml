@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_y="0dp"
+        android:gravity="center"
+        android:paddingBottom="48dp"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:text="Name of Housing Society*" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '"
+            android:ems="10"
+            android:inputType="textCapWords"
+            android:background="@drawable/edit_text_rounded"/>
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Total No. of Household in Society*" />
+
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:digits="0123456789"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="3"/>
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Name of Key Contact Person*" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '"
+            android:ems="10"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="How are You Related*" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="#3D3D3D"
+            android:popupBackground="#3D3D3D"
+            />
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Mobile Number*" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:digits="0123456789"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="10" />
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Alternate Number" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:digits="0123456789"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="10" />
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Address*" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textCapSentences" />
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="State*" />
+
+        <Spinner
+            android:id="@+id/spinner_state"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="#3D3D3D"
+            android:popupBackground="#3D3D3D"
+            />
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="City*" />
+
+        <EditText
+            android:id="@+id/et_city"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textCapSentences" />
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Pincode*" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:digits="0123456789"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="6" />
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Email Id*" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <LinearLayout
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="I agree to " />
+
+            <Button
+                android:id="@+id/tncButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/transparent"
+                android:textColor="#003EFF"
+
+                android:padding="0dp"
+                android:text=" terms &amp; conditions*"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Submit"/>
+
+        <TextView
+            android:id="@+id/errorTextView"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/toll_free_no"/>
+
+    </LinearLayout>
+
+</ScrollView>

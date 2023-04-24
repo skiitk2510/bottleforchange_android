@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/logo_new" />
+
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-24dp"
+            android:background="#FF0"
+            android:padding="3dp"
+            android:rotation="-3"
+            android:text="PLASTIC IS NOT WASTE"
+            android:textColor="#3d3d3d"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_view123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#FF0"
+            android:padding="3dp"
+            android:rotation="-3"
+            android:text="ITS RECYCLABLE RESOURCE"
+            android:textColor="#3d3d3d"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/redPincode"
+            android:textColor="@color/textcolor"
+            android:text="My Open Tickets" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/orange"
+            android:textColor="@color/textcolor"
+            android:text="Enter Plastic Collected" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/transparent"
+            android:textColor="@color/fadedGreen"
+            android:text="Plastic Submitted" />
+
+        <Button
+            android:id="@+id/button37"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/transparent"
+            android:textColor="@color/fadedGreen"
+            android:text="Logout" />
+
+    </LinearLayout>
+
+</ScrollView>

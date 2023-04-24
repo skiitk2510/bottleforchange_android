@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:text="WHAT IS THE BOTTLES FOR CHANGE PROGRAMME?"
+            android:textSize="23sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="Bottles for Change aims to create awareness among citizens about importance of plastic recycling. When plastic is thrown in waste, it ends up in sea, ocean, drains, river etc. and causes pollution, so don’t treat plastic as waste, it has value even after use, just clean it, collect it and send it directly for recycling."
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="Through this initiative we ensure channelizing all kinds of used clean plastic for recycling thus ensuring the greener cleaner environment "
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="Bisleri has engaged with a NGO called Parisar Bhagni Vikas Sangh (PBVS), a social enterprise Sampurna Earth in Mumbai and recycler Dalmia Polypro Industries Ltd., which are associated with the plastic agents/kabadiwala groups in Mumbai. The plastic collected by us are crushed into fine flakes which are then used to create non-edible products such as - Cloth fabric, Hand bags, Window blinds and other useful products. "
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:text="What Does Bottles for Change Do?"
+            android:textSize="23sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                app:srcCompat="@mipmap/bfc1_foreground" />
+
+            <TextView
+                android:id="@+id/text_view2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="Educating citizens and bringing awareness about a habitual change in the plastic disposing ways."
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/text_view3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/yellowRecycler"
+            android:text=""
+            android:textSize="18sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                app:srcCompat="@mipmap/bfc2_foreground" />
+
+            <TextView
+                android:id="@+id/text_view4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="Creating a channel and opportunity for plastic agents to collect used but clean plastic (hard as well as soft) through various stakeholders."
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_view5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/yellowRecycler"
+            android:text=""
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                app:srcCompat="@mipmap/bfc3_foreground" />
+
+            <TextView
+                android:id="@+id/text_view6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="Sorting clean plastic as per their types received from user, at the segregation center and directly sending it for recycling."
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_view7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/yellowRecycler"
+            android:text=""
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                app:srcCompat="@mipmap/bfc4_foreground" />
+
+            <TextView
+                android:id="@+id/text_view8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="Providing plastic agents hygienic working conditions, and a respectable life eventually uplifting their economic status."
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_view9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/yellowRecycler"
+            android:text=""
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3344"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:text="HERE'S WHAT YOU CAN DO"
+            android:textSize="23sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:srcCompat="@mipmap/what1_foreground" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:srcCompat="@mipmap/what2_foreground" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                app:srcCompat="@mipmap/what3_foreground" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+

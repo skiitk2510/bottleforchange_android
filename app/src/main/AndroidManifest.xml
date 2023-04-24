@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bisleri.bottleforchange">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity
+            android:name=".RecieptPdf"
+            android:exported="false" />
+        <activity
+            android:name=".AuthActivity"
+            android:exported="true"
+            android:label="Bottles For Change"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutBottlesForChangeActivity" />
+        <activity android:name=".TruthAboutActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".FeedBackActivity" />
+        <activity android:name=".CorporateRegActivity" />
+        <activity android:name=".SubmitPlasticSingleActivity" />
+        <activity android:name=".RecyclerActivity" />
+        <activity android:name=".SuccessActivity" />
+        <activity
+            android:name=".DropPinActivity"
+            android:label="@string/title_activity_drop_apin" />
+        <activity
+            android:name=".PlasticAgentAggregatorReg"
+            android:label="@string/title_activity_plastic_agent_aggregator_reg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EducationInstitutionReg"
+            android:label="@string/title_activity_school_college_reg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HotelResturantReg"
+            android:label="@string/title_activity_hotel_resturant_reg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CallAgentActivity"
+            android:label="@string/title_activity_call_agent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pincodesearch.PincodeSearchActivity"
+            android:label="@string/title_activity_pincode_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SubmitPlasticActivity"
+            android:label="@string/title_activity_submit_plastic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PlasticCollectedActivity"
+            android:label="@string/title_activity_plastic_collected"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AggregatorActivity"
+            android:label="@string/title_activity_aggregator"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tickets.PATicketsActivity"
+            android:label="@string/title_activity_patickets"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PlasticAgentSubmitActivity"
+            android:label="@string/title_activity_plastic_agent_submit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DashboardAggregatorActivity"
+            android:label="@string/title_activity_dashboard_aggregator"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DashboardPlaticAgentActivity"
+            android:label="@string/title_activity_dashboard_platic_agent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScorecardActivity"
+            android:label="@string/title_activity_scorecard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TicketActivity"
+            android:label="@string/title_activity_ticket"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".submittedplastics.SubmittedPlasticActivity"
+            android:label="@string/title_activity_submitted_plastic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DashboardActivity"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CredsActivity"
+            android:label="@string/title_activity_creds"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OtpActivity"
+            android:label="@string/title_activity_otp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HousingSocietyActivity"
+            android:label="@string/title_activity_housing_society"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SocialInstitutionRegActivity"
+            android:label="SocialInstitutionRegActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegActivity"
+            android:label="@string/title_activity_reg" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>

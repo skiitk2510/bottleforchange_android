@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/iv_agent"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/back_radio_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_agent_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_agent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Fazal Shaikh" />
+
+    <TextView
+        android:id="@+id/tv_agent_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/tv_agent_name"
+        app:layout_constraintStart_toStartOf="@+id/tv_agent_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_agent_name"
+        tools:text="saljfhsdjfhlasjd" />
+
+
+    <TextView
+        android:id="@+id/tv_agent_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center_vertical|end"
+        app:layout_constraintEnd_toEndOf="@+id/tv_agent_name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_agent_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_agent_address"
+        tools:text="7303991959" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/clr_offwhite"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_agent_phone"
+        app:layout_constraintTop_toBottomOf="@+id/tv_agent_phone"
+        tools:text="12 Aug 1983" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
