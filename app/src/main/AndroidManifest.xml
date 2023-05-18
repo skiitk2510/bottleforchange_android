@@ -36,6 +36,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".AboutBottlesForChangeActivity" />
+        <activity android:name=".FaqActivity" />
         <activity android:name=".TruthAboutActivity" />
         <activity android:name=".ForgotPasswordActivity" />
         <activity android:name=".FeedBackActivity" />
