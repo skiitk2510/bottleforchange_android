@@ -187,6 +187,60 @@
             tools:layout_editor_absoluteX="93dp"
             tools:layout_editor_absoluteY="437dp" />
 
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="PAN No."
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="179dp" />
+
+        <EditText
+            android:id="@+id/pan"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textCapSentences"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="437dp" />
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Registration No."
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="179dp" />
+
+        <EditText
+            android:id="@+id/registration"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textCapSentences"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="437dp" />
+
+        <TextView
+            android:layout_width="322dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="GST No."
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="179dp" />
+
+        <EditText
+            android:id="@+id/gst_no"
+            android:layout_width="322dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="textCapSentences"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="437dp" />
+
         <LinearLayout
             android:layout_width="322dp"
             android:layout_height="wrap_content"
