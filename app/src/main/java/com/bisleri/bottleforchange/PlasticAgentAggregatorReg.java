@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import android.text.Html;
 import android.text.TextUtils;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -56,6 +57,9 @@ public class PlasticAgentAggregatorReg extends AppCompatActivity {
         final EditText address = findViewById(R.id.editText4);
         final EditText pincode = findViewById(R.id.editText5);
         final EditText email_id = findViewById(R.id.editText6);
+        final EditText pan = findViewById(R.id.pan);
+        final EditText registration = findViewById(R.id.registration);
+        final EditText gst = findViewById(R.id.gst_no);
         final Spinner relation = findViewById(R.id.spinner);
         final EditText etCity = findViewById(R.id.et_city);
         final Spinner state = findViewById(R.id.spinner_state);
@@ -78,6 +82,9 @@ public class PlasticAgentAggregatorReg extends AppCompatActivity {
                 String altNumber_value = altNumber.getText().toString();
                 String address_value = address.getText().toString();
                 String pincode_value = pincode.getText().toString();
+                String pan_value = pan.getText().toString();
+                String registration_value = registration.getText().toString();
+                String gst_value = gst.getText().toString();
                 String email_id_value = email_id.getText().toString();
                 String name_housing_society_value ="";// name_housing_society.getText().toString();
                 String no_of_households_value = "0";//no_of_households.getText().toString();
@@ -132,6 +139,18 @@ public class PlasticAgentAggregatorReg extends AppCompatActivity {
                     otherErrorArray.add("Enter valid email id");
                 }
 
+                if(pan_value.matches("")){
+                    emptyErrorArray.add("PAN number");
+                }
+
+                if(registration_value.matches("")){
+                    emptyErrorArray.add("Registration number");
+                }
+
+                if(gst_value.matches("")){
+                    emptyErrorArray.add("GST number");
+                }
+
                 CheckBox checkBox = findViewById(R.id.checkBox);
                 if(!checkBox.isChecked()){
                     otherErrorArray.add("Please refer terms and conditions");
@@ -167,6 +186,9 @@ public class PlasticAgentAggregatorReg extends AppCompatActivity {
                 postData.put("app_email_address", email_id_value);
                 postData.put("state", state_value);
                 postData.put("city", city_value);
+                postData.put("app_pan_no", pan_value);
+                postData.put("app_registration_no", registration_value);
+                postData.put("app_gst_no", gst_value);
 
                 final PostResponseAsyncTask task = new PostResponseAsyncTask( v.getContext(), postData, new AsyncResponse() {
                     @Override

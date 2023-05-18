@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 <LinearLayout
@@ -15,23 +16,55 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:gravity="center_horizontal"
-        android:text="Score Card"
+        android:text="Top Contributors"
         android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="Region" />
+
+    <Spinner
+        android:id="@+id/spinner_region"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="20"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:dropDownWidth="wrap_content"
+        android:labelFor="@id/textView4"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:spinnerMode="dropdown"
+        android:visibility="visible" />
 
     <TableLayout
         android:id="@+id/tableViewScore"
         android:layout_width="match_parent"
         android:layout_height="500dp"
-        android:layout_marginTop="15dp"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp">
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
 
     </TableLayout>
+
+    <TextView
+        android:id="@+id/no_data_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:visibility="visible" />
 
     <Button
         android:id="@+id/button41"
         android:layout_width="322dp"
-        android:layout_height="50dp"
+        android:layout_height="49dp"
         android:layout_marginTop="15dp"
         android:text="Home" />
 

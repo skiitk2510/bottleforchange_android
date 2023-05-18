@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button regButton, loginButton, truth, about;
+    Button regButton, loginButton, truth, about, faq;
     ImageButton shareButton;
 
     @Override
@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         loginButton = findViewById(R.id.button2);
         truth = findViewById(R.id.button42);
         about = findViewById(R.id.button43);
+        faq = findViewById(R.id.faq);
         shareButton = findViewById(R.id.share_button);
 
         regButton.setOnClickListener(new OnClickListener() {
@@ -53,6 +54,13 @@ public class MainActivity extends AppCompatActivity {
         about.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
                 Intent i = new Intent(v.getContext(), AboutBottlesForChangeActivity.class);
+                startActivity(i);
+            }
+        });
+
+        faq.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                Intent i = new Intent(v.getContext(), FaqActivity.class);
                 startActivity(i);
             }
         });
