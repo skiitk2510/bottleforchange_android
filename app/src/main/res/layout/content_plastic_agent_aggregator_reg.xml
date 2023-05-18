@@ -191,7 +191,7 @@
             android:layout_width="322dp"
             android:layout_height="match_parent"
             android:layout_marginTop="20dp"
-            android:text="PAN No."
+            android:text="PAN No.*"
             tools:layout_editor_absoluteX="80dp"
             tools:layout_editor_absoluteY="179dp" />
 
@@ -209,7 +209,7 @@
             android:layout_width="322dp"
             android:layout_height="match_parent"
             android:layout_marginTop="20dp"
-            android:text="Registration No."
+            android:text="Registration No.*"
             tools:layout_editor_absoluteX="80dp"
             tools:layout_editor_absoluteY="179dp" />
 
@@ -227,7 +227,7 @@
             android:layout_width="322dp"
             android:layout_height="match_parent"
             android:layout_marginTop="20dp"
-            android:text="GST No."
+            android:text="GST No.*"
             tools:layout_editor_absoluteX="80dp"
             tools:layout_editor_absoluteY="179dp" />
 

@@ -139,6 +139,18 @@ public class PlasticAgentAggregatorReg extends AppCompatActivity {
                     otherErrorArray.add("Enter valid email id");
                 }
 
+                if(pan_value.matches("")){
+                    emptyErrorArray.add("PAN number");
+                }
+
+                if(registration_value.matches("")){
+                    emptyErrorArray.add("Registration number");
+                }
+
+                if(gst_value.matches("")){
+                    emptyErrorArray.add("GST number");
+                }
+
                 CheckBox checkBox = findViewById(R.id.checkBox);
                 if(!checkBox.isChecked()){
                     otherErrorArray.add("Please refer terms and conditions");
